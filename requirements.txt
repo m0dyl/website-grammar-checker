@@ -1,0 +1,4 @@
+# Versions used by the local test suite; Java 17+ is installed separately.
+requests==2.34.2
+beautifulsoup4==4.15.0
+language_tool_python==3.4.0

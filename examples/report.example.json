@@ -1,0 +1,40 @@
+{
+  "_example": "Synthetic format example, not a live website scan.",
+  "settings": {
+    "site_url": "https://example.com/",
+    "main_language": "pl",
+    "request_delay": 2.0,
+    "max_pages": 500,
+    "url_ignore": [
+      "/blog"
+    ],
+    "rule_id_ignore": [],
+    "english_ignore": true,
+    "hyphen_dash_ignore": true
+  },
+  "stop_reason": null,
+  "discovered_urls": [
+    "https://example.com/"
+  ],
+  "pending_urls": [],
+  "pages": [
+    {
+      "url": "https://example.com/",
+      "status": "checked",
+      "errors": [
+        {
+          "language": "pl",
+          "word": "szamponn",
+          "text": "To jest szamponn.",
+          "offset": 8,
+          "length": 8,
+          "rule_id": "MORFOLOGIK_RULE_PL_PL",
+          "message": "Example spelling warning",
+          "replacements": [
+            "szampon"
+          ]
+        }
+      ]
+    }
+  ]
+}

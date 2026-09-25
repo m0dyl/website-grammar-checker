@@ -1,0 +1,33 @@
+# Virtual environments and Python caches
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+cookies.txt
+cookies.json
+secrets.json
+
+# Generated reports can contain private website text
+/grammar_report*.json
+/reports/
+
+# Local copies, editor settings, OS files
+/main_old*.py
+/main_[0-9]*.py
+/main_with_big_small.py
+*.bak
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
